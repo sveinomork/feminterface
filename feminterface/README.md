@@ -37,10 +37,10 @@ feminterface/
 
 `poetry build`
 
-## setup Gihub
+## setup Github
 Create repostory on GITHUB named feminterface
 
-Create a new repostory on the command line
+Create a new repostory on the command line, don't use "name_name"
 
 `git init`
 `git add .`
@@ -50,9 +50,9 @@ Create a new repostory on the command line
 `git push -u origin main`
 
 # Clone the repostory
-`git clone https://github.com/sveinomork/feminterface.git feminterface_clone`
+`git clone https://github.com/sveinomork/feminterface.git feminterfaceclone`
 
-`cd feminterface_clone`
+`cd feminterfaceclone`
 
 
 
@@ -68,9 +68,9 @@ Create a new repostory on the command line
 
 ## Procjet setup
 ### make a new project
-`poetry new feminterface_pacage`
+`poetry new feminterfacepacage`
 
-`cd feminterface_pacage`
+`cd feminterfacepacage`
 
 ### Activating the virtual environment
 

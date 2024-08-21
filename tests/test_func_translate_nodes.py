@@ -1,3 +1,4 @@
+from vectormath import Vector3
 from pathlib import Path
 import pytest
 from feminterface.fem.fem import FEM
@@ -19,17 +20,14 @@ GCOORD    7.00000000E+00  2.62733841E+00  2.70502830E+00 -2.50000004E-02""")
     return file
 
 
-def test_read_gcoord(file_path):
+def test_read_translate_nodes(file_path):
     fem_obj=FEM()
     fem_obj.read_fem(file_path)
+    fem_obj.translate_nodes(Vector3(1,1,1))
 
     
     
   
-    assert fem_obj.gcoord[int(float(7.00000000E+00))].xcoord == float(2.62733841E+00 )
+    assert fem_obj.gcoord[int(float(7.00000000E+00))].xcoord == float(2.62733841E+00+1 )
 
-    assert fem_obj.gcoord[int(float(1.00000000E+00))].ycoord == float(2.71415424E+00  )
-
-    assert fem_obj.gcoord[int(float(2.00000000E+00))].zcoord == float(-5.00000007E-02  )
-
-
+    
