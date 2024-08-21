@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "feminterface"
+version = "0.1.0"
+description = ""
+authors = ["sveinomork <62790668+sveinomork@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+vectormath = "^0.2.2"
+shapely = "^2.0.6"
+scipy = "^1.14.1"
+sympy = "^1.13.2"
+matplotlib = "^3.9.2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.test.dependencies]  
+pytest-randomly = "^3.15.0"  
+pytest = "^8.2.0"
