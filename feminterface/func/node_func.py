@@ -130,7 +130,19 @@ class NODE_FUNC(FEM_BASE,FUNC_TEMPLATE):
             return get_elment_side_nodes(elnum,side,side_dic_31)
       
 
+   def get_nodes_in_lc(self,lc:int)->list[int]:
+      """get all nodes in the element side for the spesific besuol"""
+      from feminterface.fem.element_parameters import side_dict_map
 
+      nodes=[]
+      for element,sides in self.beuslo[lc].items():
+         eltype=self.gelmnt1[element].eltype
+         for side in sides:
+            for idx in side_dict_map[eltype][side]:
+               nodes.append(self.gelmnt1[element].nodin[idx-1])
+      return list(set(nodes))
+   
+   
 
 
       

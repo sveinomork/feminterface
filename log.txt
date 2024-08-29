@@ -49,3 +49,54 @@
 13:56:52,221 feminterface.fem.write INFO Execution time fro writing FEM file: 2.161268711090088 seconds
 13:56:52,221 feminterface.fem.write INFO Fem file writen to file T11.FEM
 13:56:52,244 __main__ INFO Execution time Write: 3.866877555847168 seconds
+14:36:47,105 feminterface.fem.read INFO Start reading the following FEM file Y:\Shared\SunRise_Common\STEPnSUPER_T200N\Final\T11.FEM
+14:36:56,271 feminterface.fem.read INFO Finish reading the FEM file
+14:36:56,271 feminterface.fem.read INFO The following card is not implemented and is not read
+14:36:56,271 feminterface.fem.read INFO The following card count has been sucessfully read:
+14:36:56,271 feminterface.fem.read INFO IDENT 
+14:36:56,271 feminterface.fem.read INFO DATE 
+14:36:56,271 feminterface.fem.read INFO TEXT 
+14:36:56,271 feminterface.fem.read INFO TDLOAD 
+14:36:56,271 feminterface.fem.read INFO GNODE 
+14:36:56,271 feminterface.fem.read INFO GCOORD 
+14:36:56,271 feminterface.fem.read INFO GELMNT1 
+14:36:56,271 feminterface.fem.read INFO GELREF1 
+14:36:56,271 feminterface.fem.read INFO TDSETNAM 
+14:36:56,271 feminterface.fem.read INFO GSETMEMB 
+14:36:56,271 feminterface.fem.read INFO MISOSEL 
+14:36:56,271 feminterface.fem.read INFO BGRAV 
+14:36:56,271 feminterface.fem.read INFO BNBCD 
+14:36:56,271 __main__ INFO Execution time Read: 9.16614556312561 seconds
+14:37:09,723 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+14:37:09,723 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+14:37:09,723 feminterface.fem.write INFO Execution time Write for TEXT: 0.0 seconds
+14:37:09,987 feminterface.fem.write INFO Execution time Write for GCOORD: 0.26421523094177246 seconds
+14:37:10,239 feminterface.fem.write INFO Execution time Write for GNODE: 0.25055599212646484 seconds
+14:37:10,239 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+14:37:10,788 feminterface.fem.write INFO Execution time Write for GELMNT1: 0.5494976043701172 seconds
+14:37:11,48 feminterface.fem.write INFO Execution time Write for GELREF1: 0.259615421295166 seconds
+14:37:11,242 feminterface.fem.write INFO Execution time Write for GSETMEMB: 0.1930227279663086 seconds
+14:37:11,245 feminterface.fem.write INFO Execution time Write for TDSETNAM: 0.002999544143676758 seconds
+14:37:11,245 feminterface.fem.write INFO Execution time Write for TDLOAD: 0.0 seconds
+14:37:11,278 feminterface.fem.write INFO Execution time Write for BEUSLO: 0.03185749053955078 seconds
+14:37:11,294 feminterface.fem.write INFO Execution time Write for BNBCD: 0.01690840721130371 seconds
+14:37:11,294 feminterface.fem.write INFO Execution time Write for BGRAV: 0.0 seconds
+14:37:52,343 feminterface.fem.write INFO Execution time fro writing FEM file: 41.04797697067261 seconds
+14:37:52,343 feminterface.fem.write INFO Fem file writen to file T11.FEM
+14:37:52,690 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+14:37:52,690 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+14:37:52,690 feminterface.fem.write INFO Execution time Write for TEXT: 0.0 seconds
+14:37:52,966 feminterface.fem.write INFO Execution time Write for GCOORD: 0.27632689476013184 seconds
+14:37:53,235 feminterface.fem.write INFO Execution time Write for GNODE: 0.2690455913543701 seconds
+14:37:53,236 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+14:37:53,789 feminterface.fem.write INFO Execution time Write for GELMNT1: 0.5521955490112305 seconds
+14:37:54,49 feminterface.fem.write INFO Execution time Write for GELREF1: 0.2603785991668701 seconds
+14:37:54,245 feminterface.fem.write INFO Execution time Write for GSETMEMB: 0.19460463523864746 seconds
+14:37:54,248 feminterface.fem.write INFO Execution time Write for TDSETNAM: 0.0029976367950439453 seconds
+14:37:54,248 feminterface.fem.write INFO Execution time Write for TDLOAD: 0.0 seconds
+14:37:54,279 feminterface.fem.write INFO Execution time Write for BEUSLO: 0.03165841102600098 seconds
+14:37:54,296 feminterface.fem.write INFO Execution time Write for BNBCD: 0.01709747314453125 seconds
+14:37:54,296 feminterface.fem.write INFO Execution time Write for BGRAV: 0.0 seconds
+14:37:56,395 feminterface.fem.write INFO Execution time fro writing FEM file: 2.0983726978302 seconds
+14:37:56,395 feminterface.fem.write INFO Fem file writen to file T11.FEM
+14:37:56,413 __main__ INFO Execution time Write: 3.7236313819885254 seconds

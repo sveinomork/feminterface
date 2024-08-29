@@ -30,7 +30,7 @@ class SHELL():
         self._create_DATE()
         
         # get the list of node based on hte lc
-        nodes=self.fem_3d.get_nodes_in_lc(lc,side_d)  
+        nodes=self.fem_3d.get_nodes_in_lc(lc)  
         #create GNODES
         self._create_GNODE(nodes)
         #create GNODE conversion dict
@@ -51,7 +51,7 @@ class SHELL():
         self._create_GELTH(0.01)
 
        
-        self._creat_IEND()
+        
         dup_nodes=self._find_duplicated_nodes()
         print(dup_nodes)
         self.fem_2d.write("T100.FEM")        

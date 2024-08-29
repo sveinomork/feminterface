@@ -27,6 +27,7 @@ side_dic_20={1:[19,20,13,14,15,16,17,18],
 side_dic_31={1:[1,6,5,4,3,2],10:[1,2,3,8,10,7],100:[5,6,1,7,10,9],1000:[3,4,5,9,10,8]}
 
 side_d={30:side_dic_30,20:side_dic_20,31:side_dic_31}
+side_dict_map={30:side_dic_30,20:side_dic_20,31:side_dic_31}
 
 
 # the information below contains the relation between solid elments and shell elements

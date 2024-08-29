@@ -368,7 +368,7 @@ def setup5():
 
 
 
-    print("stopp")
+
     
 
 

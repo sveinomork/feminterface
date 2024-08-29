@@ -1,4 +1,4 @@
-# Create a python pacage using GIT,GIHUB and POETRY
+# Create a python package using GIT,GIHUB and POETRY
 
 ## Procjet setup
 ### make a new project
@@ -12,14 +12,18 @@ feminterface/
 │   ├── __init__.py
 │   ├── fem/
 │   │   ├── __init__.py
+│   │   ├── fem.py
 │   │   ├── cards/
 │   │   │   ├── __init__.py
-│   │   │   └── beuslo.py
-│   └── another_module.py
+│   │   │   └── gcoord.py
+│   │   │── func/
+│   │   │   ├── __init__.py
+│   │   │   └── node_func.py
 └── tests/
     ├── __init__.py
     └── test_beuslo.py
 ```
+
 
 `cd feminterface`
 
@@ -32,13 +36,17 @@ feminterface/
 
 `poetry add numpy`
 
+### pytest
+Include test files.
 
-### build  pacage 
+`poetry run pytest`
+
+### build  package 
 
 `poetry build`
 
 ## setup Github
-Create repostory on GITHUB named feminterface
+Create repostory on GITHUB named eg. feminterface. Don't add _
 
 Create a new repostory on the command line, don't use "name_name"
 
@@ -64,13 +72,15 @@ Create a new repostory on the command line, don't use "name_name"
 `poetry install`
 
 
-# install the pacage from github
+# Install the package from github
+## Install poetry
+See, https://python-poetry.org/docs/#installing-with-the-official-installer
 
 ## Procjet setup
 ### make a new project
-`poetry new feminterfacepacage`
+`poetry new feminterfacepackage`
 
-`cd feminterfacepacage`
+`cd feminterfacepackage`
 
 ### Activating the virtual environment
 
