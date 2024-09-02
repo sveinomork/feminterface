@@ -1,0 +1,163 @@
+13:31:04,790 feminterface.fem.read INFO Start reading the following FEM file Y:\Shared\SunRise_Common\STEPnSUPER_T200N\Final\T11.FEM
+13:31:04,837 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.
+13:36:34,919 feminterface.fem.read INFO Start reading the following FEM file C:\Data\FULL_MODEL\T3.FEM
+13:38:01,67 feminterface.fem.read INFO Finish reading the FEM file
+13:38:01,67 feminterface.fem.read INFO The following card is not implemented and is not read
+13:38:01,67 feminterface.fem.read INFO BEISTE
+13:38:01,67 feminterface.fem.read INFO BNLOAD
+13:38:01,67 feminterface.fem.read INFO The following card count has been sucessfully read:
+13:38:01,75 feminterface.fem.read INFO IDENT 
+13:38:01,75 feminterface.fem.read INFO DATE 
+13:38:01,75 feminterface.fem.read INFO TDLOAD 
+13:38:01,75 feminterface.fem.read INFO GNODE 
+13:38:01,75 feminterface.fem.read INFO GCOORD 
+13:38:01,75 feminterface.fem.read INFO BNBCD 
+13:38:01,75 feminterface.fem.read INFO GELMNT1 
+13:38:01,75 feminterface.fem.read INFO MISOSEL 
+13:38:01,75 feminterface.fem.read INFO GELREF1 
+13:38:01,75 feminterface.fem.read INFO TDSETNAM 
+13:38:01,83 feminterface.fem.read INFO GSETMEMB 
+13:38:01,83 feminterface.fem.read INFO BGRAV 
+13:38:01,83 feminterface.fem.read INFO BEUSLO 
+13:38:01,142 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.
+13:46:50,605 feminterface.fem.read INFO Start reading the following FEM file C:\Data\FULL_MODEL\T3.FEM
+13:48:18,906 feminterface.fem.read INFO Finish reading the FEM file
+13:48:18,906 feminterface.fem.read INFO The following card is not implemented and is not read
+13:48:18,906 feminterface.fem.read INFO BEISTE
+13:48:18,906 feminterface.fem.read INFO BNLOAD
+13:48:18,906 feminterface.fem.read INFO The following card count has been sucessfully read:
+13:48:18,906 feminterface.fem.read INFO IDENT 
+13:48:18,906 feminterface.fem.read INFO DATE 
+13:48:18,906 feminterface.fem.read INFO TDLOAD 
+13:48:18,906 feminterface.fem.read INFO GNODE 
+13:48:18,906 feminterface.fem.read INFO GCOORD 
+13:48:18,906 feminterface.fem.read INFO BNBCD 
+13:48:18,906 feminterface.fem.read INFO GELMNT1 
+13:48:18,906 feminterface.fem.read INFO MISOSEL 
+13:48:18,906 feminterface.fem.read INFO GELREF1 
+13:48:18,906 feminterface.fem.read INFO TDSETNAM 
+13:48:18,906 feminterface.fem.read INFO GSETMEMB 
+13:48:18,914 feminterface.fem.read INFO BGRAV 
+13:48:18,914 feminterface.fem.read INFO BEUSLO 
+13:48:18,980 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.
+14:49:30,444 feminterface.fem.read INFO Start reading the following FEM file C:\Data\FULL_MODEL\T3.FEM
+14:50:13,223 feminterface.fem.read INFO Finish reading the FEM file
+14:50:13,239 feminterface.fem.read INFO The following card is not implemented and is not read
+14:50:13,239 feminterface.fem.read INFO BEISTE
+14:50:13,239 feminterface.fem.read INFO BNLOAD
+14:50:13,239 feminterface.fem.read INFO The following card count has been sucessfully read:
+14:50:13,239 feminterface.fem.read INFO IDENT 
+14:50:13,239 feminterface.fem.read INFO DATE 
+14:50:13,239 feminterface.fem.read INFO TDLOAD 
+14:50:13,239 feminterface.fem.read INFO GNODE 
+14:50:13,239 feminterface.fem.read INFO GCOORD 
+14:50:13,239 feminterface.fem.read INFO BNBCD 
+14:50:13,239 feminterface.fem.read INFO GELMNT1 
+14:50:13,239 feminterface.fem.read INFO MISOSEL 
+14:50:13,239 feminterface.fem.read INFO GELREF1 
+14:50:13,239 feminterface.fem.read INFO TDSETNAM 
+14:50:13,244 feminterface.fem.read INFO GSETMEMB 
+14:50:13,244 feminterface.fem.read INFO BGRAV 
+14:50:13,244 feminterface.fem.read INFO BEUSLO 
+14:50:13,263 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.
+14:50:39,155 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+14:50:39,162 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+14:50:39,755 feminterface.fem.write INFO Execution time Write for GCOORD: 0.5931477546691895 seconds
+14:50:40,322 feminterface.fem.write INFO Execution time Write for GNODE: 0.5675101280212402 seconds
+14:50:40,322 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+14:50:41,371 feminterface.fem.write INFO Execution time Write for GELMNT1: 1.048877239227295 seconds
+14:50:41,845 feminterface.fem.write INFO Execution time Write for GELREF1: 0.47345638275146484 seconds
+14:55:26,940 feminterface.fem.read INFO Start reading the following FEM file C:\Data\FULL_MODEL\T3.FEM
+14:56:09,577 feminterface.fem.read INFO Finish reading the FEM file
+14:56:09,577 feminterface.fem.read INFO The following card is not implemented and is not read
+14:56:09,577 feminterface.fem.read INFO BEISTE
+14:56:09,577 feminterface.fem.read INFO BNLOAD
+14:56:09,577 feminterface.fem.read INFO The following card count has been sucessfully read:
+14:56:09,577 feminterface.fem.read INFO IDENT 
+14:56:09,577 feminterface.fem.read INFO DATE 
+14:56:09,577 feminterface.fem.read INFO TDLOAD 
+14:56:09,577 feminterface.fem.read INFO GNODE 
+14:56:09,577 feminterface.fem.read INFO GCOORD 
+14:56:09,577 feminterface.fem.read INFO BNBCD 
+14:56:09,577 feminterface.fem.read INFO GELMNT1 
+14:56:09,577 feminterface.fem.read INFO MISOSEL 
+14:56:09,587 feminterface.fem.read INFO GELREF1 
+14:56:09,587 feminterface.fem.read INFO TDSETNAM 
+14:56:09,588 feminterface.fem.read INFO GSETMEMB 
+14:56:09,588 feminterface.fem.read INFO BGRAV 
+14:56:09,588 feminterface.fem.read INFO BEUSLO 
+14:56:12,326 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+14:56:12,326 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+14:56:12,952 feminterface.fem.write INFO Execution time Write for GCOORD: 0.6265811920166016 seconds
+14:56:13,606 feminterface.fem.write INFO Execution time Write for GNODE: 0.6540789604187012 seconds
+14:56:13,606 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+14:56:15,4 feminterface.fem.write INFO Execution time Write for GELMNT1: 1.3975293636322021 seconds
+14:56:15,461 feminterface.fem.write INFO Execution time Write for GELREF1: 0.45622968673706055 seconds
+14:56:16,286 feminterface.fem.write INFO Execution time Write for BEUSLO: 0.8246614933013916 seconds
+14:56:16,286 feminterface.fem.write INFO Execution time Write for GELTH: 0.0 seconds
+14:57:26,828 feminterface.fem.write INFO Execution time fro writing FEM file: 70.54275441169739 seconds
+14:57:26,828 feminterface.fem.write INFO Fem file writen to file T100.FEM
+14:57:26,910 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.
+14:58:43,741 __main__ INFO Execution time Read: 196.80152297019958 seconds
+14:58:45,138 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+14:58:45,138 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+14:58:46,522 feminterface.fem.write INFO Execution time Write for GCOORD: 1.3839523792266846 seconds
+14:58:48,136 feminterface.fem.write INFO Execution time Write for GNODE: 1.6144955158233643 seconds
+14:58:48,136 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+14:58:51,3 feminterface.fem.write INFO Execution time Write for GELMNT1: 2.866953134536743 seconds
+14:58:51,955 feminterface.fem.write INFO Execution time Write for GELREF1: 0.9520373344421387 seconds
+14:58:52,201 feminterface.fem.write INFO Execution time Write for GSETMEMB: 0.24591302871704102 seconds
+14:58:52,201 feminterface.fem.write INFO Execution time Write for TDSETNAM: 0.0 seconds
+14:58:52,201 feminterface.fem.write INFO Execution time Write for TDLOAD: 0.0 seconds
+14:58:59,880 feminterface.fem.write INFO Execution time Write for BEUSLO: 7.6788554191589355 seconds
+14:58:59,920 feminterface.fem.write INFO Execution time Write for BNBCD: 0.03970956802368164 seconds
+14:58:59,921 feminterface.fem.write INFO Execution time Write for BGRAV: 0.0 seconds
+15:04:08,189 feminterface.fem.write INFO Execution time fro writing FEM file: 308.26719784736633 seconds
+15:04:08,190 feminterface.fem.write INFO Fem file writen to file T11.FEM
+15:04:10,29 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+15:04:10,30 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+15:04:11,505 feminterface.fem.write INFO Execution time Write for GCOORD: 1.474583625793457 seconds
+15:04:12,837 feminterface.fem.write INFO Execution time Write for GNODE: 1.3319978713989258 seconds
+15:04:12,837 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+15:04:14,363 feminterface.fem.write INFO Execution time Write for GELMNT1: 1.525395154953003 seconds
+15:04:14,815 feminterface.fem.write INFO Execution time Write for GELREF1: 0.45227670669555664 seconds
+15:04:15,2 feminterface.fem.write INFO Execution time Write for GSETMEMB: 0.18725347518920898 seconds
+15:04:15,2 feminterface.fem.write INFO Execution time Write for TDSETNAM: 0.0 seconds
+15:04:15,2 feminterface.fem.write INFO Execution time Write for TDLOAD: 0.0 seconds
+15:04:22,356 feminterface.fem.write INFO Execution time Write for BEUSLO: 7.353262662887573 seconds
+15:04:22,388 feminterface.fem.write INFO Execution time Write for BNBCD: 0.016943693161010742 seconds
+15:04:22,389 feminterface.fem.write INFO Execution time Write for BGRAV: 0.0 seconds
+15:04:32,461 feminterface.fem.write INFO Execution time fro writing FEM file: 10.071599245071411 seconds
+15:04:32,462 feminterface.fem.write INFO Fem file writen to file T11.FEM
+15:04:32,588 __main__ INFO Execution time Write: 22.559412240982056 seconds
+15:05:05,981 feminterface.fem.read INFO Start reading the following FEM file C:\Data\FULL_MODEL\T3.FEM
+15:06:31,274 feminterface.fem.read INFO Finish reading the FEM file
+15:06:31,276 feminterface.fem.read INFO The following card is not implemented and is not read
+15:06:31,277 feminterface.fem.read INFO BEISTE
+15:06:31,277 feminterface.fem.read INFO BNLOAD
+15:06:31,277 feminterface.fem.read INFO The following card count has been sucessfully read:
+15:06:31,277 feminterface.fem.read INFO IDENT 
+15:06:31,280 feminterface.fem.read INFO DATE 
+15:06:31,281 feminterface.fem.read INFO TDLOAD 
+15:06:31,287 feminterface.fem.read INFO GNODE 
+15:06:31,288 feminterface.fem.read INFO GCOORD 
+15:06:31,290 feminterface.fem.read INFO BNBCD 
+15:06:31,290 feminterface.fem.read INFO GELMNT1 
+15:06:31,292 feminterface.fem.read INFO MISOSEL 
+15:06:31,293 feminterface.fem.read INFO GELREF1 
+15:06:31,296 feminterface.fem.read INFO TDSETNAM 
+15:06:31,296 feminterface.fem.read INFO GSETMEMB 
+15:06:31,296 feminterface.fem.read INFO BGRAV 
+15:06:31,296 feminterface.fem.read INFO BEUSLO 
+15:06:35,897 feminterface.fem.write INFO Execution time Write for IDENT: 0.0 seconds
+15:06:35,898 feminterface.fem.write INFO Execution time Write for DATE: 0.0 seconds
+15:06:36,679 feminterface.fem.write INFO Execution time Write for GCOORD: 0.7814459800720215 seconds
+15:06:37,484 feminterface.fem.write INFO Execution time Write for GNODE: 0.8048825263977051 seconds
+15:06:37,484 feminterface.fem.write INFO Execution time Write for MISOSEL: 0.0 seconds
+15:06:38,937 feminterface.fem.write INFO Execution time Write for GELMNT1: 1.4528796672821045 seconds
+15:06:39,504 feminterface.fem.write INFO Execution time Write for GELREF1: 0.5660393238067627 seconds
+15:06:40,485 feminterface.fem.write INFO Execution time Write for BEUSLO: 0.9805190563201904 seconds
+15:06:40,485 feminterface.fem.write INFO Execution time Write for GELTH: 0.0 seconds
+15:08:01,404 feminterface.fem.write INFO Execution time fro writing FEM file: 80.91911029815674 seconds
+15:08:01,405 feminterface.fem.write INFO Fem file writen to file T100.FEM
+15:08:01,473 matplotlib.pyplot DEBUG Loaded backend tkagg version 8.6.

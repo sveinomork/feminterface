@@ -47,16 +47,25 @@ def main():
 
 
    
-
+    print("test")
     #setup5()
     
     fem_obj_3d=FEM()
     start_time = time.time()  # Start measuring time
-    
+    fem_obj_3d=FEM()
+    fem_obj_2d=FEM()
+    from feminterface.fem.shell import SHELL
+    start_time = time.time()  # Start measuring time
+    fem_obj_3d.read_fem(r'C:\Data\FULL_MODEL\T3.FEM')
+    sh=SHELL(fem_obj_3d,fem_obj_2d)
+    sh.create_shell_from_solid(17)
+            
             
 
 
-    fem_obj_3d.read_fem(r'Y:\Shared\SunRise_Common\STEPnSUPER_T200N\Final\T11.FEM')
+   
+   
+   
     end_time = time.time()  # End measuring time
     execution_time = end_time - start_time
     logger.info(f'Execution time Read: {execution_time} seconds')

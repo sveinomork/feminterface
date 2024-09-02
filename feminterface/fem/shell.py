@@ -121,7 +121,7 @@ class SHELL():
         if lc in self.fem_3d.beuslo:            
             for elment,besulo_cards in self.fem_3d.beuslo[lc].items():
                 # there can be muliple e                
-                for beuslo_card in besulo_cards:
+                for side in besulo_cards:
                     nodin=[0 for i in range(8)]
                    
                     #self.elnum_conv[new_elnum]=elment                    
@@ -129,7 +129,7 @@ class SHELL():
                         self.fem_2d.gelmnt1[new_elnum]={}
                             
                     # get the element type                        
-                    side=beuslo_card.side
+                    
                     typ=self.fem_3d.gelmnt1[elment].eltype
                     
                     # get the nodes 
@@ -171,12 +171,13 @@ class SHELL():
             if mod_lc not in self.fem_2d.beuslo:
                 self.fem_2d.beuslo[mod_lc]={}
             if element not in  self.fem_2d.beuslo[mod_lc]:
-                self.fem_2d.beuslo[mod_lc][element]=[]
+                self.fem_2d.beuslo[mod_lc][element]={}
+                self.fem_2d.beuslo[mod_lc][element][2]={}
             type=self.fem_2d.gelmnt1[element].eltype
             if type==SHELL_8:
-                self.fem_2d.beuslo[mod_lc][element].append(BEUSLO(loadtyp=1,complx=0,layer=0,ndof=8,intno=0,side=2,rload=[-1,-1,-1,-1,-1,-1,-1,-1]))
+                self.fem_2d.beuslo[mod_lc][element][2] =BEUSLO(loadtyp=1,complx=0,layer=0,ndof=8,intno=0,side=2,rload=[-1,-1,-1,-1,-1,-1,-1,-1])
             elif type==SHELL_6:
-                self.fem_2d.beuslo[mod_lc][element].append(BEUSLO(loadtyp=1,complx=0,layer=0,ndof=6,intno=0,side=2,rload=[-1,-1,-1,-1,-1,-1]))
+                self.fem_2d.beuslo[mod_lc][element][2]=BEUSLO(loadtyp=1,complx=0,layer=0,ndof=6,intno=0,side=2,rload=[-1,-1,-1,-1,-1,-1])
             else:
                 raiseExceptions("Elment not supportet")    
 
