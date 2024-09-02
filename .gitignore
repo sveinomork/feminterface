@@ -17,6 +17,9 @@ node_modules/
 *.o
 *.so
 *.dll
+*.idx
+*.mod
+*.txt
 
 # Ignore Python cache and virtual environments
 __pycache__/
